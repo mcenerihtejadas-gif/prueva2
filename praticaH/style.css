@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    background-color: #ecf2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    width: 375px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+.header-section {
+    background: linear-gradient(to bottom, #7755ff, #ff5555);
+    padding: 40px 30px;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    color: white;
+}
+
+.header-section h3 {
+    color: #c8c7ff;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.score-circle {
+    background: linear-gradient(to bottom, #4d21c9, rgba(37, 33, 201, 0));
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.score-number {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.score-total {
+    color: #8b8aff;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.header-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #c8c7ff;
+    font-size: 0.95rem;
+    line-height: 1.3;
+    padding: 0 10px;
+}
+
+.summary-section {
+    padding: 30px;
+}
+
+.summary-section h3 {
+    color: #303b59;
+    margin-bottom: 20px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.stat-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-score {
+    color: #8b8da1;
+}
+
+.stat-score b {
+    color: #303b59;
+}
+
+.reaction { background-color: #fff6f5; color: #ff5555; }
+.memory   { background-color: #fffbf2; color: #ffb21e; }
+.verbal   { background-color: #f2fbfa; color: #00bb8f; }
+.visual   { background-color: #f3f3fd; color: #1125d6; }
+
+.continue-btn {
+    width: 100%;
+    padding: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #303b59;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.continue-btn:hover {
+    background: linear-gradient(to bottom, #7755ff, #2f2ce9);
+}
